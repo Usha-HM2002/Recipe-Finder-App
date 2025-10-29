@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fff7ed;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #ea580c;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  background-color: #f97316;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #ea580c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+}
